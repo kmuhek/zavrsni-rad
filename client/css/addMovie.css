@@ -1,0 +1,9 @@
+.list {
+    height: 100px;
+    padding: 10px 5px;
+    overflow-y: scroll;
+    max-width: 300px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 2px;
+}

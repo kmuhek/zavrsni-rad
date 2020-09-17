@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add</title>
+    <script defer src="addMovie.js"></script>
+    <link rel="stylesheet" href="../css/mainPage.css">
+    <link rel="stylesheet" href="../css/details.css">
+    <link rel="stylesheet" href="../css/update.css">
+    <link rel="stylesheet" href="../css/addMovie.css">
+</head>
+<body>
+    <header class="header">
+        <a href="../index.html"><img src="../pictures/logo.png" alt="logo" class="logo"></a>
+        <h1>-Movies-</h1>
+    </header>
+    <main>
+        <form action="" class="updateForm" id="addForm">
+            <label class="labels" for="title">Title: </label>
+            <input type="text" class="fields updateFields" id="titleInput" name="title" placeholder="Title">
+
+            <label class="labels" for="year">Year: </label>
+            <input type="number" class="fields updateFields" id="yearInput" name="year" placeholder="Year">
+
+            <label class="labels" for="runtime">Runtime: </label>
+            <input type="number" class="fields updateFields" id="runtimeInput" name="runtime" placeholder="Runtime">
+
+            <label class="labels" for="genres">Genres: </label>
+            <input type="text" class="fields updateFields" id="genresInput" name="genres" placeholder="Genre 1, genre 2 ...">
+
+            <label class="labels" for="synopsis">Synopsis: </label>
+            <textarea type="text" class="textarea updateFields" id="synopsisInput" name="synopsis" placeholder="Synopsis"></textarea>
+
+            <label class="labels" for="picture">Picture: </label>
+            <textarea type="text" class="textarea updateFields" id="pictureInput" name="picture" placeholder="URL picture"></textarea>
+
+            <label class="labels" for="languages">Languages: </label>
+            <input type="text" class="fields updateFields" id="languagesInput" name="languages" placeholder="Language 1, language 2 ...">
+
+            <label class="labels" for="directors">Directors: </label>
+            <div class="list" id="directorsList">
+            </div>
+            
+
+            <label class="labels" for="writers">Writers: </label>
+            <div class="list" id="writersList">
+            </div>
+
+            <label class="labels" for="actors">Actors: </label>
+            <div class="list" id="actorsList">
+            </div>
+
+            <input class="btnSubmit" type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p>&copy Kristina Muhek<br>
+            Faculty of Organization and Informatics<br>
+            contact: <a href="mailto:kmuhek@foi.hr">kmuhek@foi.hr</a>
+        </p>
+    </footer>
+</body>
+</html>

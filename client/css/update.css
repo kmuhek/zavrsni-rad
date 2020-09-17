@@ -1,0 +1,19 @@
+.updateForm{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.updateForm > *{
+    margin-bottom: 15px;
+}
+
+.updateFields{
+    width: 500px;
+    align-self: center;
+}
+
+.labels{
+    font-family: 'Architects Daughter', cursive;
+    align-self: center;
+}

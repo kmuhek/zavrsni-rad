@@ -1,0 +1,147 @@
+.cardMovie{
+    padding: 150px 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardPeople{
+    padding: 100px 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.detailsPeople{
+    padding: 0 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.detailsPeople > *{
+    margin-bottom: 20px;
+}
+
+.detailsMovie{
+    padding: 100px 150px 0 80px;
+}
+
+.detailsMovie > *{
+    margin-bottom: 20px;
+}
+
+main{
+    background-color: #d6e2e5;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.review{
+    text-align: center;
+}
+
+.addReviewForm{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 50px;
+}
+
+.addReviewForm > *{
+    margin-bottom: 10px;
+}
+
+a{
+    color: #153a43;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #69c1f5;
+    cursor: pointer;
+}
+
+.flexMain{
+    display: flex;
+}
+
+.cardSynopsis{
+    font-family: 'Architects Daughter', cursive;
+}
+
+.btnSubmit{
+    width: 50%;
+    align-self: center;
+    height: 40px;
+    background-color: #153a43;
+    border: none;
+    border-radius: 50px;
+    color: whitesmoke;
+}
+
+.fields{
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.textarea{
+    height: 50px;
+    border: none;
+    padding: 0 25px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1400px){
+    .cardMovie{
+        padding: 100px 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .detailsMovie{
+        padding: 100px 20px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .cardMovie{
+        padding: 100px 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .detailsMovie{
+        padding: 100px 20px;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .cardMovie{
+        justify-content: center;
+        padding: 120px 100px 0 100px;
+    }
+    
+    .detailsMovie{
+        padding: 50px 30px;
+    }
+
+    .flexMain{
+        display: flex;
+        flex-direction: column;
+    }
+}

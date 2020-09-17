@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie detail</title>
+    <script defer src="getMovieDetail.js"></script>
+    <link rel="stylesheet" href="../css/mainPage.css">
+    <link rel="stylesheet" href="../css/details.css">
+</head>
+<body>
+    <header class="header">
+        <a href="../index.html"><img src="../pictures/logo.png" alt="logo" class="logo"></a>
+        <h1>-Movies-</h1>
+    </header>
+    <main>
+        <div class="flexMain">
+            <div id="movie-card"></div>
+            <div id="movie-details"></div>
+        </div>
+        <h2 class="review">Reviews</h2>
+        <div id="reviews" class="reviews">
+
+        </div>
+
+        <form action="" class="addReviewForm" id="addReviewForm">
+            <input type="text" class="fields" id="usernameInput" name="username" placeholder="   Username">
+            <input type="number" class="fields" id="ratingInput" name="rating" min="1" max="5" placeholder="    Rating">
+            <textarea type="text" class="textarea" id="commentInput" name="comment" placeholder="Comment"></textarea>
+            <input class="btnSubmit" type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p>&copy Kristina Muhek<br>
+            Faculty of Organization and Informatics<br>
+            contact: <a href="mailto:kmuhek@foi.hr">kmuhek@foi.hr</a>
+        </p>
+    </footer>
+</body>
+</html>

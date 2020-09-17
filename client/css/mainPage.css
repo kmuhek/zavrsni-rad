@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.gridMain{
+    grid-template-rows: 1fr 2fr 2fr;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 60px;
+    background-color: #3f6674;
+    border-radius: 50%;
+}
+
+.header{
+    background-color: #3f6674;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 25px;
+}
+
+.add{
+    display: flex;
+    background-color: #d6e2e5;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    padding: 25px; 
+    justify-self: center;
+    font-family: 'Architects Daughter', cursive;
+}
+
+h1{
+    align-self: center;
+}
+
+.mainGrid{
+    padding: 40px 80px;
+    background-color: #d6e2e5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 60px;
+    row-gap: 60px;
+}
+
+footer{
+    background-color: #3f6674;
+    padding: 25px 0;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+}
+
+a{
+    color: whitesmoke;
+}
+
+.aMovie{
+    color: #153a43;
+}
+
+a:link{
+    color: #153a43;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #69c1f5;
+    cursor: pointer;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    background-color: #3f6674;
+    color: #d6e2e5;
+    transition: 0.3s;
+    width: 280px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.moviePicture{
+    width: 150px;
+    height: 150px;
+    align-self: center;
+}
+
+.cardTitle{
+    font-family: 'Architects Daughter', cursive;
+}
+
+.cardYear{
+    font-family: 'Architects Daughter', cursive;
+}
+
+.cardPicture{
+    align-self: center;
+    padding: 20px;
+}
+
+.btnDelete{
+    height: 50px;
+    width: 50px;
+    justify-self: center;
+    background: url('../pictures/btnDetele.png');
+    border:none;
+    background-color: #d6e2e5;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.btnUpdate{
+    height: 50px;
+    width: 50px;
+    justify-self: center;
+    background: url('../pictures/btnUpdate.png');
+    border: none;
+    background-color: #d6e2e5;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.divBtn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 30px 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 1400px){
+    .mainGrid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .mainGrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 720px){
+    h1{
+        font-size: 30px;
+        padding:2px 0;
+    }
+
+    .mainGrid{
+        grid-template-columns: 1fr;
+    }
+}
